@@ -7,7 +7,7 @@
 
 > 처음 받은 경우 `python tools/set_github_id.py <GitHub아이디> [저장소이름]`으로 계정 주소를 반영합니다.
 
-## 1. 필요한 도구와 버전 {#tools}
+## 1. 필요한 도구와 버전
 
 | 도구 | 버전 | 용도 |
 | --- | --- | --- |
@@ -22,7 +22,7 @@
 - macOS: `brew install hugo`
 - 정확한 버전이 필요하면 https://github.com/gohugoio/hugo/releases/tag/v0.167.0 에서 `hugo_extended_0.167.0_*` 파일을 받습니다.
 
-## 2. 로컬에서 실행·빌드하기 {#build}
+## 2. 로컬에서 실행·빌드하기
 
 ```bash
 # 저장소 받기
@@ -40,7 +40,7 @@ python .github/pages_build.py --build
 
 `public/`은 빌드 결과물이라 Git에 올리지 않습니다(`.gitignore`).
 
-## 3. 어디를 고치면 되나 {#edit}
+## 3. 어디를 고치면 되나
 
 | 바꾸고 싶은 것 | 파일 |
 | --- | --- |
@@ -55,7 +55,7 @@ python .github/pages_build.py --build
 
 원본 테마(`site/themes/template/`)는 직접 수정하지 않습니다.
 
-## 4. 수정 후 재배포와 확인 {#deploy}
+## 4. 수정 후 재배포와 확인
 
 1. 파일을 수정한 뒤 커밋하고 `main`에 push합니다.
    ```bash
@@ -68,7 +68,7 @@ python .github/pages_build.py --build
 
 처음 한 번은 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 설정해야 합니다. 설정 전에 실패한 실행은 *Re-run all jobs*로 다시 실행합니다.
 
-## 5. 출처와 이용 조건 {#credits}
+## 5. 출처와 이용 조건
 
 | 자료 | 사용 위치 | 구분 | 출처·조건 |
 | --- | --- | --- | --- |
