@@ -150,7 +150,7 @@ weight = 1
 url = "https://github.com/your-github-id/"
 
 [languages.ko]
-languageName = "한국어"
+label = "한국어"
 weight = 1
 
 [[languages.ko.menu.main]]
