@@ -17,3 +17,11 @@ public
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# 개인 환경·편집기·OS 임시 파일
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*~
+__pycache__/
