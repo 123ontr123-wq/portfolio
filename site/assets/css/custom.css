@@ -35,3 +35,8 @@ body.colorscheme-dark button:focus-visible { outline-color: #90cdf4; }
   body.colorscheme-auto a:focus-visible,
   body.colorscheme-auto button:focus-visible { outline-color: #90cdf4; }
 }
+
+/* 긴 URL·코드가 본문 폭을 밀어내지 않도록 */
+.content article, .content section { overflow-wrap: anywhere; word-break: keep-all; }
+.content table { display: block; overflow-x: auto; max-width: 100%; }
+.content pre { overflow-x: auto; }
