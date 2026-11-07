@@ -26,7 +26,7 @@ unsafe = true
 author = "장민성"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "생명과학과 AI를 함께 공부하는 장민성의 개인 포트폴리오"
-keywords = "blog,developer,personal"
+keywords = "포트폴리오,생명과학,인공지능,계산생물학,Hugo"
 info = ["Full Stack DevOps", "Magician"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
