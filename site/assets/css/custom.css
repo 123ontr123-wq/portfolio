@@ -1,0 +1,7 @@
+/* 장민성 포트폴리오 추가 스타일 (테마 원본은 수정하지 않음) */
+
+/* 화면에는 숨기고 스크린리더에는 읽히는 텍스트 */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
