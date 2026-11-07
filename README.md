@@ -65,3 +65,16 @@ python .github/pages_build.py --build
 3. 실행 요약의 `deploy` 단계에 표시된 주소(https://your-github-id.github.io/portfolio/)를 열고, 브라우저 캐시를 피하려면 시크릿 창에서 바뀐 내용을 확인합니다.
 
 처음 한 번은 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 설정해야 합니다. 설정 전에 실패한 실행은 *Re-run all jobs*로 다시 실행합니다.
+
+## 5. 출처와 이용 조건 {#credits}
+
+| 자료 | 사용 위치 | 구분 | 출처·조건 |
+| --- | --- | --- | --- |
+| hugo-coder 테마 | `site/themes/template/` 전체 | 외부 자료 | https://github.com/luizdepra/hugo-coder · MIT 라이선스 (`LICENSE.md` 유지, 푸터에 고지) |
+| Font Awesome 아이콘·글꼴 | 테마에 포함 | 외부 자료 | 테마 동봉 · Font Awesome Free 라이선스 (아이콘 CC BY 4.0, 글꼴 SIL OFL 1.1) |
+| `prepare_github_pages.py` → `.github/pages_build.py`, 워크플로 | `.github/` | 수업 제공 | 초급프로젝트 수업 자료 |
+| 아바타 `avatar.svg`, 배포 흐름도 `deploy-flow.svg` | `site/static/images/` | 직접 제작 (AI 도움으로 SVG 코드 작성) | — |
+| 소개·활동·학습 기록 글 | `site/content/` | 직접 작성 (AI로 문장 초안·정리) | — |
+| 추가 CSS·레이아웃 덮어쓰기 | `site/assets/`, `site/layouts/` | 직접 수정 (AI로 코드 초안 작성, 직접 검증) | 원본 테마 파일을 복사해 수정 (MIT) |
+
+AI 도구: Claude (Anthropic) — 설정·코드 초안, 오류 분석, 문장 정리에 사용했습니다.
