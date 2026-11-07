@@ -2,7 +2,7 @@
 baseURL = "/"
 title = "장민성 포트폴리오"
 
-languageCode = "ko-KR"
+locale = "ko-KR"
 defaultContentLanguage = "ko"
 enableEmoji = true
 
