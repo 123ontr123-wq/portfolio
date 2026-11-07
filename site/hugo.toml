@@ -160,12 +160,12 @@ url = "about/"
 
 [[languages.ko.menu.main]]
 name = "학습 기록"
-weight = 2
+weight = 3
 url = "posts/"
 
 [[languages.ko.menu.main]]
 name = "활동"
-weight = 3
+weight = 2
 url = "projects/"
 
 [[languages.ko.menu.main]]
