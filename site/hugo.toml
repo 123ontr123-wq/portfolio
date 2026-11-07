@@ -31,7 +31,7 @@ info = ["전북대학교 생명과학 전공 · AI 부전공", "계산생물학�
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "2006년 1월 2일"
-since = 2019
+since = 2026
 # Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languages such as Arabic
