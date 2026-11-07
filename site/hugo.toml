@@ -157,7 +157,7 @@ languageName = "한국어"
 weight = 1
 
 [[languages.ko.menu.main]]
-name = "About"
+name = "소개"
 weight = 1
 url = "about/"
 
@@ -167,7 +167,7 @@ weight = 2
 url = "posts/"
 
 [[languages.ko.menu.main]]
-name = "Projects"
+name = "활동"
 weight = 3
 url = "projects/"
 
