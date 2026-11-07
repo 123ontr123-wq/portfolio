@@ -162,7 +162,7 @@ weight = 1
 url = "about/"
 
 [[languages.ko.menu.main]]
-name = "Blog"
+name = "학습 기록"
 weight = 2
 url = "posts/"
 
@@ -172,6 +172,6 @@ weight = 3
 url = "projects/"
 
 [[languages.ko.menu.main]]
-name = "Contact me"
+name = "연락"
 weight = 5
 url = "contact/"
