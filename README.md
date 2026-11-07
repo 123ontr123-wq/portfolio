@@ -52,3 +52,16 @@ python .github/pages_build.py --build
 | 배포 주소(baseURL) | `site/pages.json` (Actions에서는 Pages 주소가 자동 적용) |
 
 원본 테마(`site/themes/template/`)는 직접 수정하지 않습니다.
+
+## 4. 수정 후 재배포와 확인 {#deploy}
+
+1. 파일을 수정한 뒤 커밋하고 `main`에 push합니다.
+   ```bash
+   git add -A
+   git commit -m "content: 소개 문구 수정"
+   git push origin main
+   ```
+2. GitHub 저장소의 **Actions** 탭 → `Deploy Hugo to GitHub Pages` 실행이 자동으로 시작되는지 확인합니다. `build`와 `deploy`가 모두 초록색(성공)이어야 합니다.
+3. 실행 요약의 `deploy` 단계에 표시된 주소(https://your-github-id.github.io/portfolio/)를 열고, 브라우저 캐시를 피하려면 시크릿 창에서 바뀐 내용을 확인합니다.
+
+처음 한 번은 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 설정해야 합니다. 설정 전에 실패한 실행은 *Re-run all jobs*로 다시 실행합니다.
