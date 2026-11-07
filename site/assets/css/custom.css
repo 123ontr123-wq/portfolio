@@ -50,9 +50,9 @@ body.colorscheme-dark button:focus-visible { outline-color: #90cdf4; }
 
 /* 본문 바로가기: 평소엔 숨기고 Tab으로 초점이 오면 표시 */
 .skip-link {
-  position: absolute; left: 1rem; top: -4rem; z-index: 100;
+  position: absolute; left: 1rem; top: 1rem; z-index: 100; transform: translateY(-200%);
   padding: .6rem 1rem; background: #1a1a1a; color: #fff !important; border-radius: 4px;
 }
-.skip-link:focus { top: 1rem; }
+.skip-link:focus { transform: none; }
 
 .back-to-top { margin: 0 0 .8rem; }
