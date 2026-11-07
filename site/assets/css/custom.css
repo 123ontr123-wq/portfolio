@@ -22,3 +22,16 @@
     outline: 3px solid #2b6cb0; outline-offset: 2px;
   }
 }
+
+/* 키보드 초점 표시 */
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 3px solid #2b6cb0;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+body.colorscheme-dark a:focus-visible,
+body.colorscheme-dark button:focus-visible { outline-color: #90cdf4; }
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto a:focus-visible,
+  body.colorscheme-auto button:focus-visible { outline-color: #90cdf4; }
+}
