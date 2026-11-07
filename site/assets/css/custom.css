@@ -40,3 +40,7 @@ body.colorscheme-dark button:focus-visible { outline-color: #90cdf4; }
 .content article, .content section { overflow-wrap: anywhere; word-break: keep-all; }
 .content table { display: block; overflow-x: auto; max-width: 100%; }
 .content pre { overflow-x: auto; }
+
+/* 본문 이미지는 화면 폭에 맞춰 비율 유지하며 축소 */
+.content img { max-width: 100%; height: auto; }
+.avatar img { aspect-ratio: 1 / 1; object-fit: cover; }
