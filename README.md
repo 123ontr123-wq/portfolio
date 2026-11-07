@@ -37,3 +37,18 @@ python .github/pages_build.py --build
 ```
 
 `public/`은 빌드 결과물이라 Git에 올리지 않습니다(`.gitignore`).
+
+## 3. 어디를 고치면 되나 {#edit}
+
+| 바꾸고 싶은 것 | 파일 |
+| --- | --- |
+| 사이트 제목·이름·소개 문구·메뉴·GitHub 링크 | `site/hugo.toml` |
+| 소개 페이지 | `site/content/about.md` |
+| 활동 목록 / 대표 활동 | `site/content/projects/` |
+| 학습 기록 글 | `site/content/posts/` |
+| 아바타·이미지 | `site/static/images/` |
+| 추가 CSS | `site/assets/css/custom.css` |
+| 테마 템플릿 덮어쓰기(메뉴 버튼·다크 모드 버튼·푸터·아바타) | `site/layouts/_partials/` |
+| 배포 주소(baseURL) | `site/pages.json` (Actions에서는 Pages 주소가 자동 적용) |
+
+원본 테마(`site/themes/template/`)는 직접 수정하지 않습니다.
