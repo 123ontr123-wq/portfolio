@@ -32,3 +32,13 @@ tags = ["Hugo", "GitHub Actions", "접근성"]
 - 공개 사이트에서 데스크톱·모바일 폭과 키보드 조작 검증
 
 AI(Claude)는 설정·코드 초안과 오류 분석에 활용했고, 적용 여부 판단과 공개 사이트에서의 확인은 제가 했습니다. 외부 테마는 [hugo-coder](https://github.com/luizdepra/hugo-coder)(MIT 라이선스)를 사용했습니다.
+
+## 수행 과정과 선택 이유 {#process}
+
+![push부터 공개까지의 배포 흐름: 로컬 수정 → git push(main) → GitHub Actions 빌드(Hugo 0.167.0) → GitHub Pages 배포 → 공개 사이트](../../images/deploy-flow.svg)
+
+1. **테마 선택** — Hugo Themes에서 [hugo-coder](https://github.com/luizdepra/hugo-coder)를 골랐습니다. 
+   - *선택 이유:* 자기소개 중심의 단순한 구조라 소개·활동을 찾기 쉽고, npm 빌드 같은 추가 의존성이 없어 Actions 빌드가 단순하며, 다크 모드·모바일 메뉴가 기본으로 들어 있습니다.
+2. **배포 준비** — Download ZIP을 풀고 수업 제공 `prepare_github_pages.py`(3.1)를 실행해 `site/` 폴더와 `.github/workflows/hugo-pages.yml`을 만들었습니다. 워크플로는 Hugo 버전을 0.167.0으로 고정합니다.
+3. **설정·콘텐츠 교체** — 데모 인물(John Doe)·예시 글·다국어 데모를 지우고 본인 정보로 바꿨습니다.
+4. **검증과 개선** — 공개 사이트를 1440px·768px·390px 폭과 키보드만으로 점검하고, 발견한 문제를 고친 뒤 다시 push해 재배포를 확인했습니다.

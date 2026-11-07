@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 150" width="820" height="150" font-family="Arial, Helvetica, sans-serif" font-size="15">
+  <g fill="#eef4f2" stroke="#1b6b5a" stroke-width="2">
+    <rect x="10" y="45" width="140" height="60" rx="8"/>
+    <rect x="175" y="45" width="140" height="60" rx="8"/>
+    <rect x="340" y="45" width="140" height="60" rx="8"/>
+    <rect x="505" y="45" width="140" height="60" rx="8"/>
+    <rect x="670" y="45" width="140" height="60" rx="8"/>
+  </g>
+  <g fill="#1a1a1a" text-anchor="middle">
+    <text x="80" y="72">로컬 수정</text><text x="80" y="92" font-size="12">site/ 파일 편집</text>
+    <text x="245" y="72">git push</text><text x="245" y="92" font-size="12">main 브랜치</text>
+    <text x="410" y="72">Actions 빌드</text><text x="410" y="92" font-size="12">Hugo 0.167.0</text>
+    <text x="575" y="72">Pages 배포</text><text x="575" y="92" font-size="12">deploy-pages</text>
+    <text x="740" y="72">공개 사이트</text><text x="740" y="92" font-size="12">HTTPS 확인</text>
+  </g>
+  <g stroke="#1b6b5a" stroke-width="2" fill="#1b6b5a">
+    <line x1="150" y1="75" x2="168" y2="75"/><path d="M175 75 l-8 -5 v10z"/>
+    <line x1="315" y1="75" x2="333" y2="75"/><path d="M340 75 l-8 -5 v10z"/>
+    <line x1="480" y1="75" x2="498" y2="75"/><path d="M505 75 l-8 -5 v10z"/>
+    <line x1="645" y1="75" x2="663" y2="75"/><path d="M670 75 l-8 -5 v10z"/>
+  </g>
+</svg>
