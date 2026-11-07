@@ -1,0 +1,11 @@
+<h1>{{ .Site.Params.author }}</h1>
+{{ if reflect.IsSlice .Site.Params.info }}
+<h2>{{ range .Site.Params.info }}{{ . | markdownify }}<br>{{ end}}</h2>
+{{ else }}
+<h2>{{ .Site.Params.info | markdownify }}</h2>
+{{ end }}
+<p class="home-links">
+  <a href="{{ "about/" | relLangURL }}">자기소개 보기</a>
+  <span aria-hidden="true">·</span>
+  <a href="{{ "projects/portfolio-site/" | relLangURL }}">대표 활동 보기</a>
+</p>

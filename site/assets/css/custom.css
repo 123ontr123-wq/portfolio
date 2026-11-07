@@ -61,3 +61,7 @@ body.colorscheme-dark button:focus-visible { outline-color: #90cdf4; }
 @media only screen and (max-width: 768px) {
   .footer { padding-bottom: 4.5rem; }
 }
+
+/* 홈 바로가기 링크: 터치하기 쉬운 크기 */
+.home-links { margin: 1.2rem 0 0; font-size: 1.8rem; }
+.home-links a { display: inline-block; padding: .6rem .8rem; }
