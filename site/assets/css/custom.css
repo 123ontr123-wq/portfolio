@@ -54,3 +54,5 @@ body.colorscheme-dark button:focus-visible { outline-color: #90cdf4; }
   padding: .6rem 1rem; background: #1a1a1a; color: #fff !important; border-radius: 4px;
 }
 .skip-link:focus { top: 1rem; }
+
+.back-to-top { margin: 0 0 .8rem; }
