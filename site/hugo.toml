@@ -9,10 +9,6 @@ enableEmoji = true
 [pagination]
 pagerSize = 6
 
-[services]
-[services.disqus]
-# Enable Disqus comments
-# shortname = "yourdiscussshortname"
 
 [markup]
 [markup.highlight]
