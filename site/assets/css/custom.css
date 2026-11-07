@@ -56,3 +56,8 @@ body.colorscheme-dark button:focus-visible { outline-color: #90cdf4; }
 .skip-link:focus { transform: none; }
 
 .back-to-top { margin: 0 0 .8rem; }
+
+/* 오른쪽 아래 고정 다크 모드 버튼이 푸터 글자를 가리지 않도록 여백 */
+@media only screen and (max-width: 768px) {
+  .footer { padding-bottom: 4.5rem; }
+}
