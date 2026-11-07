@@ -19,3 +19,21 @@
 - Windows: `winget install Hugo.Hugo.Extended` (설치 후 `hugo version`이 `+extended`로 표시되는지 확인)
 - macOS: `brew install hugo`
 - 정확한 버전이 필요하면 https://github.com/gohugoio/hugo/releases/tag/v0.167.0 에서 `hugo_extended_0.167.0_*` 파일을 받습니다.
+
+## 2. 로컬에서 실행·빌드하기 {#build}
+
+```bash
+# 저장소 받기
+git clone https://github.com/your-github-id/portfolio.git
+cd portfolio
+
+# 개발 서버 (http://localhost:1313/portfolio/ 에서 확인)
+cd site
+hugo server --config hugo.toml,pages.json --theme template --themesDir themes
+
+# 배포와 동일한 방식으로 빌드 (저장소 최상위에서 실행, 결과는 public/)
+cd ..
+python .github/pages_build.py --build
+```
+
+`public/`은 빌드 결과물이라 Git에 올리지 않습니다(`.gitignore`).
