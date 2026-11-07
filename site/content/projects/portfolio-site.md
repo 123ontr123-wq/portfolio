@@ -42,3 +42,10 @@ AI(Claude)는 설정·코드 초안과 오류 분석에 활용했고, 적용 여
 2. **배포 준비** — Download ZIP을 풀고 수업 제공 `prepare_github_pages.py`(3.1)를 실행해 `site/` 폴더와 `.github/workflows/hugo-pages.yml`을 만들었습니다. 워크플로는 Hugo 버전을 0.167.0으로 고정합니다.
 3. **설정·콘텐츠 교체** — 데모 인물(John Doe)·예시 글·다국어 데모를 지우고 본인 정보로 바꿨습니다.
 4. **검증과 개선** — 공개 사이트를 1440px·768px·390px 폭과 키보드만으로 점검하고, 발견한 문제를 고친 뒤 다시 push해 재배포를 확인했습니다.
+
+## 산출물과 결과 {#result}
+
+- **공개 사이트:** 이 사이트 자체입니다. `main`에 push하면 GitHub Actions가 빌드하고 GitHub Pages에 배포합니다.
+- **소스 저장소:** [your-github-id/portfolio](https://github.com/your-github-id/portfolio) — 설정·콘텐츠·레이아웃 수정 이력을 커밋 단위로 확인할 수 있습니다.
+- **배포 기록:** [Actions 실행 목록](https://github.com/your-github-id/portfolio/actions)에서 push마다 빌드·배포가 성공했는지 확인할 수 있습니다.
+- **확인한 것:** 저장소 이름이 붙은 하위 경로에서도 홈·소개·활동 페이지를 주소창에 직접 입력해 열 수 있고, CSS·아바타·이 페이지의 흐름도 이미지가 정상적으로 불러와지는 것을 확인했습니다.
