@@ -1,25 +1,14 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+title = "소개"
+description = "장민성 — 생명과학 전공, AI 부전공"
+date = "2026-11-07"
+slug = "about"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+안녕하세요, **장민성**입니다. 전북대학교 생명과학과 4학년이며 AI를 부전공하고 있습니다.
+생물 데이터를 컴퓨터로 해석하는 일, 특히 계산생물학과 바이오메디컬 AI에 관심이 있습니다.
 
-Hugo makes use of a variety of open source projects including:
-
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+- [관심 분야](#interest)
+- [학습 목표와 계획](#goal)
+- [사용하는 도구와 적용 사례](#skills)
+- [대표 활동 보기](../projects/portfolio-site/)
