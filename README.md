@@ -5,6 +5,8 @@
 - 공개 사이트: https://your-github-id.github.io/portfolio/
 - 테마: [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT) — 원본 테마 README는 [THEME-README.md](THEME-README.md)
 
+> 처음 받은 경우 `python tools/set_github_id.py <GitHub아이디> [저장소이름]`으로 계정 주소를 반영합니다.
+
 ## 1. 필요한 도구와 버전 {#tools}
 
 | 도구 | 버전 | 용도 |
