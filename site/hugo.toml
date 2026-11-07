@@ -4,7 +4,7 @@ title = "장민성 포트폴리오"
 
 locale = "ko-KR"
 defaultContentLanguage = "ko"
-enableEmoji = true
+enableEmoji = false
 
 [pagination]
 pagerSize = 6
