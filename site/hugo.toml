@@ -141,10 +141,7 @@ customRemoteJS = []
 # connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
-category = "categories"
-series = "series"
 tag = "tags"
-author = "authors"
 
 [[params.social]]
 name = "GitHub"
